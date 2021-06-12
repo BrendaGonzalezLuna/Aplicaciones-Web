@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Receipt example</title>
+    </head>
+    <body>
+        <div class="ticket">
+            <img src="./vaca.png" alt="Logo">
+            <p class="centered">Recibo
+                <br>Lazaro Cardenas #4
+                <br>0318122002</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="quantity">Q.</th>
+                        <th class="description">Descripción</th>
+                        <th class="price">$$</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="quantity">1.00</td>
+                        <td class="description">PAQUETE DE 48 DONAS</td>
+                        <td class="price">$50.00</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">1.00</td>
+                        <td class="description">PASTEL DE QUESO</td>
+                        <td class="price">$100.00</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">1.00</td>
+                        <td class="description">CAFE DE CHOCOLATE</td>
+                        <td class="price">$10.00</td>
+                    </tr>
+					<tr>
+                        <td class="quantity">1.00</td>
+                        <td class="description">PIZZA DE PEPERONI</td>
+                        <td class="price">$120.00</td>
+                    </tr>
+					<tr>
+                        <td class="quantity">1.00</td>
+                        <td class="description">COCA-COLA</td>
+                        <td class="price">$30.00</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity"></td>
+                        <td class="description">TOTAL</td>
+                        <td class="price">$310.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="centered">GRACIAS POR SU COMPRA!
+                <br>GONZALEZ LUNA BRENDA</p>
+        </div>
+        <button id="btnPrint" class="hidden-print">Print</button>
+        <script src="script.js"></script>
+    </body>
+</html>
